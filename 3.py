@@ -17,11 +17,3 @@ def get_numbers():
 if __name__ == '__main__':
     # Запускаем без debug режима
     app.run(host='0.0.0.0', port=5000, debug=False)
-
-
-print ...
-1
-2
-3
-4
-
