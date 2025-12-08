@@ -3,6 +3,9 @@
 from flask import Flask, jsonify
 import random
 import logging
+1
+2
+3
 
 # Отключаем логи Flask
 log = logging.getLogger('werkzeug')
