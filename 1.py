@@ -9,17 +9,12 @@ log = logging.getLogger('werkzeug')
 log.setLevel(logging.ERROR)
 
 
-1
-2
-3
-4
-
 app = Flask(__name__)
 
-@app.route('/numbers')
+@app.route('/numbers123')
 def get_numbers():
     numbers = [random.randint(1, 100) for _ in range(10)]
-    return jsonify({"numbers": numbers})
+    return jsonify({"numbers123": numbers})
 
 if __name__ == '__main__':
     # Запускаем без debug режима
@@ -27,17 +22,4 @@ if __name__ == '__main__':
 
 
 print ...
-1
-2
-3
-4
 
-11
-22
-33
-44
-
-111
-222
-333
-444

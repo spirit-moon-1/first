@@ -9,16 +9,22 @@ log.setLevel(logging.ERROR)
 
 app = Flask(__name__)
 
-1
-2
-3
-4
+111
+222
+333
+444
 
-@app.route('/numbers')
+@app.route('/numbers123')
 def get_numbers():
     numbers = [random.randint(1, 100) for _ in range(10)]
-    return jsonify({"numbers": numbers})
+    return jsonify({"numbers123": numbers})
 
 if __name__ == '__main__':
     # Запускаем без debug режима
     app.run(host='0.0.0.0', port=5000, debug=False)
+
+
+111
+222
+333
+444
