@@ -4,6 +4,8 @@ from flask import Flask, jsonify
 import random
 import logging
 
+12345
+
 # Отключаем логи Flask
 log = logging.getLogger('werkzeug')
 log.setLevel(logging.ERROR)
