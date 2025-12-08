@@ -8,6 +8,12 @@ import logging
 log = logging.getLogger('werkzeug')
 log.setLevel(logging.ERROR)
 
+
+1
+2
+3
+4
+
 app = Flask(__name__)
 
 @app.route('/numbers')

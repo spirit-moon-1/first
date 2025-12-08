@@ -9,6 +9,11 @@ log.setLevel(logging.ERROR)
 
 app = Flask(__name__)
 
+1
+2
+3
+4
+
 @app.route('/numbers')
 def get_numbers():
     numbers = [random.randint(1, 100) for _ in range(10)]
