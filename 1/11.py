@@ -14,10 +14,10 @@ log.setLevel(logging.ERROR)
 
 app = Flask(__name__)
 
-@app.route('/numbers123')
+@app.route('/numbers123456')
 def get_numbers():
     numbers = [random.randint(1, 100) for _ in range(10)]
-    return jsonify({"numbers123": numbers})
+    return jsonify({"numbers123456": numbers})
 
 if __name__ == '__main__':
     # Запускаем без debug режима
