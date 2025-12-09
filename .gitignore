@@ -1,0 +1,3 @@
+*.log
+logs/*
+!1.log
